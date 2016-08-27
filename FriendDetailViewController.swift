@@ -7,7 +7,7 @@
 //
 import UIKit
 
-class FriendDetailViewController: UIViewController {
+class FriendDetailViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var friendName: UITextField!
     
@@ -19,6 +19,8 @@ class FriendDetailViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         
+        self.friendName.delegate = self
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -29,9 +31,16 @@ class FriendDetailViewController: UIViewController {
         
     }
     
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
+    
+    
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
         
-     if segue.identifier == "doneSegue" {
+        if segue.identifier == "doneSegue" {
             
             name = friendName.text!
             
