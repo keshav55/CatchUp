@@ -1,14 +1,14 @@
 //
-//  FriendUITests.swift
-//  FriendUITests
+//  FriendsUITests.swift
+//  FriendsUITests
 //
-//  Created by Nikita Ashok on 8/15/16.
+//  Created by Nikita Ashok on 8/26/16.
 //  Copyright © 2016 Nikita Ashok. All rights reserved.
 //
 
 import XCTest
 
-class FriendUITests: XCTestCase {
+class FriendsUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

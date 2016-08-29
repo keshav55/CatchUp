@@ -1,15 +1,15 @@
 //
-//  FriendTests.swift
-//  FriendTests
+//  FriendsTests.swift
+//  FriendsTests
 //
-//  Created by Nikita Ashok on 8/15/16.
+//  Created by Nikita Ashok on 8/26/16.
 //  Copyright © 2016 Nikita Ashok. All rights reserved.
 //
 
 import XCTest
-@testable import Friend
+@testable import Friends
 
-class FriendTests: XCTestCase {
+class FriendsTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
