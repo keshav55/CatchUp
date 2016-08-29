@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "116B9B371D62D25C0095E6A3"
-               BuildableName = "Friend.app"
-               BlueprintName = "Friend"
-               ReferencedContainer = "container:Friend.xcodeproj">
+               BlueprintIdentifier = "11AEB86C1D715269004EC1ED"
+               BuildableName = "Friends.app"
+               BlueprintName = "Friends"
+               ReferencedContainer = "container:Friends.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "116B9B4B1D62D25C0095E6A3"
-               BuildableName = "FriendTests.xctest"
-               BlueprintName = "FriendTests"
-               ReferencedContainer = "container:Friend.xcodeproj">
+               BlueprintIdentifier = "11AEB8801D71526A004EC1ED"
+               BuildableName = "FriendsTests.xctest"
+               BlueprintName = "FriendsTests"
+               ReferencedContainer = "container:Friends.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "116B9B561D62D25C0095E6A3"
-               BuildableName = "FriendUITests.xctest"
-               BlueprintName = "FriendUITests"
-               ReferencedContainer = "container:Friend.xcodeproj">
+               BlueprintIdentifier = "11AEB88B1D71526A004EC1ED"
+               BuildableName = "FriendsUITests.xctest"
+               BlueprintName = "FriendsUITests"
+               ReferencedContainer = "container:Friends.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "116B9B371D62D25C0095E6A3"
-            BuildableName = "Friend.app"
-            BlueprintName = "Friend"
-            ReferencedContainer = "container:Friend.xcodeproj">
+            BlueprintIdentifier = "11AEB86C1D715269004EC1ED"
+            BuildableName = "Friends.app"
+            BlueprintName = "Friends"
+            ReferencedContainer = "container:Friends.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "116B9B371D62D25C0095E6A3"
-            BuildableName = "Friend.app"
-            BlueprintName = "Friend"
-            ReferencedContainer = "container:Friend.xcodeproj">
+            BlueprintIdentifier = "11AEB86C1D715269004EC1ED"
+            BuildableName = "Friends.app"
+            BlueprintName = "Friends"
+            ReferencedContainer = "container:Friends.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "116B9B371D62D25C0095E6A3"
-            BuildableName = "Friend.app"
-            BlueprintName = "Friend"
-            ReferencedContainer = "container:Friend.xcodeproj">
+            BlueprintIdentifier = "11AEB86C1D715269004EC1ED"
+            BuildableName = "Friends.app"
+            BlueprintName = "Friends"
+            ReferencedContainer = "container:Friends.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

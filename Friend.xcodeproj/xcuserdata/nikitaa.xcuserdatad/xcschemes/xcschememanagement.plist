@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Friend.xcscheme</key>
+		<key>Friends.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>116B9B371D62D25C0095E6A3</key>
+		<key>11AEB86C1D715269004EC1ED</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>116B9B4B1D62D25C0095E6A3</key>
+		<key>11AEB8801D71526A004EC1ED</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>116B9B561D62D25C0095E6A3</key>
+		<key>11AEB88B1D71526A004EC1ED</key>
 		<dict>
 			<key>primary</key>
 			<true/>
