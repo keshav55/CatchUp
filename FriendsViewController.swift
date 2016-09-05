@@ -62,6 +62,8 @@ class FriendsViewController: UITableViewController {
             if let friend = friendDetailsViewController.friend {
                 friends.append(friend)
                 
+                 createReminder()
+                
                 //update the tableView
                 let indexPath = NSIndexPath(forRow: friends.count-1, inSection: 0)
                 tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
@@ -71,7 +73,19 @@ class FriendsViewController: UITableViewController {
     
     
     
-
+    func createReminder(){
+        
+        
+        let notification = UILocalNotification()
+        
+        notification.fireDate = NSDate(timeIntervalSinceNow: 5)
+        notification.alertBody = "Hey you! Yeah you! Swipe to unlock!"
+        notification.alertAction = "be awesome!"
+        notification.soundName = UILocalNotificationDefaultSoundName
+        UIApplication.sharedApplication().scheduleLocalNotification(notification)
+        
+        
+    }
     /*
     // Override to support conditional editing of the table view.
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
